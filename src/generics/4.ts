@@ -5,4 +5,4 @@ type User = {
   password: string;
 };
 
-function createOrUpdateUser<T extends Partial<User>>(initialValues: T) {}
+function createOrUpdateUser(initialValues: Partial<User>) {}
